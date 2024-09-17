@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100vw;
+    gap: 500px;
+    background-color: pink
+}
+
+.name {
+display: flex;
+flex-direction: column;
+ justify-content: center;
+ font-size: 25px;
+}
+
+.nav-items {
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 150px;
+}
+
+.hero-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    padding-top: 150px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hello {
+    color: palevioletred;
+    font-size: 25px;
+}
+
+.hero-text {
+    gap: 90px;
+    height: 100px;
+}
