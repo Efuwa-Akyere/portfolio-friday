@@ -9,10 +9,10 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 60px;
     width: 100vw;
     gap: 500px;
-    background-color:bisque;
+    background-color:#316280;
     position: fixed;
 }
 
@@ -21,31 +21,37 @@ display: flex;
 flex-direction: column;
  justify-content: center;
  font-size: 25px;
+ color: white;
 }
 
 .nav-items {
  display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 150px;
+  gap: 120px;
+}
+
+.nav-items a {
+    color: white;
 }
 
 .hero-section {
-    height: 80vh;
+    /* height: 100vh; */
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: beige;
-    padding-top: 150px;
+    background-image: url(./img/backgroud\ pic.jpg);
+    padding: 200px;
     gap: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
 
 .hello {
-    color: palevioletred;
+    color: #131342;
     font-size: 25px;
 }
 
@@ -54,25 +60,35 @@ flex-direction: column;
     height: 10rem;
 }
 
-.name {
+.name-subthings {
     align-items: center;
+    color: white;
+}
+
+.all-buttons {
+    padding-right: 160px;
 }
 
 .first-button {
    padding: 10px 30px;
    border-radius: 15px;
+   border: 0px;
+   text-align: right;
 }
 
 .second-button {
 padding: 10px 30px;
 border-radius: 15px;
-background-color: bisque;
+background-color:#131342;
+color: white;
+border: 0px;
+
 }
 
 .footer {
     height: 100vh;
     width: 100vw;
-    background-color: #F0F0F0;
+    background-color: black;
     display: flex;
     flex-direction: row;
     /* gap: 20rem; */
@@ -82,10 +98,12 @@ background-color: bisque;
 
 .contact {
     width: 40rem;
+    color: white;
 }
 
 .contact-form {
     width: 40rem;
+    color: white;
    
     
 
@@ -116,3 +134,77 @@ margin-left: 10%;
     margin-top: 5%;
     margin-left: 5%;
 }
+
+.works-section {
+    /* height: 100vh;
+    width: 100vw; */
+    background-color:beige;
+    opacity: 0.3px;
+    /* margin-top: 70px;
+    margin-bottom: 70px; */
+    padding: 100px;
+
+}
+
+.works-text {
+    margin-left: 30rem;
+}
+
+.pic-container {
+    height: 50rem;
+}
+
+.image1-edit {
+    border-radius: 150px;
+    height: 15rem;
+    width: 15rem;
+}
+
+.image2-edit {
+    border-radius: 150px;
+    height: 15rem;
+    width: 15rem;
+}
+
+.image3-edit {
+    border-radius: 150px;
+    height: 15rem;
+    width: 15rem;
+    display: flex;   
+}
+
+.last-one {
+    margin-left: 20rem;
+    margin-top: 80px;
+}
+
+.first-two {
+    height: 20rem;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 50px;
+
+}
+
+.big-text {
+    width: 60%;
+    padding-left: 100px;
+}
+
+.about-pic {
+   width: 20rem;
+   height: 25rem;
+    /* border-radius: 20px; */
+}
+
+.about-sub1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 300px;
+}
+
