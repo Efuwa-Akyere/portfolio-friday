@@ -88,7 +88,7 @@ border: 0px;
 .footer {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: #D2D5DA;
     display: flex;
     flex-direction: row;
     /* gap: 20rem; */
@@ -98,12 +98,12 @@ border: 0px;
 
 .contact {
     width: 40rem;
-    color: white;
+    color: black;
 }
 
 .contact-form {
     width: 40rem;
-    color: white;
+    color: black;
    
     
 
@@ -138,7 +138,7 @@ margin-left: 10%;
 .works-section {
     /* height: 100vh;
     width: 100vw; */
-    background-color:beige;
+    background-color:#F8F9FA;
     opacity: 0.3px;
     /* margin-top: 70px;
     margin-bottom: 70px; */
@@ -189,6 +189,7 @@ margin-left: 10%;
     padding-top: 100px;
     padding-left: 50px;
     padding-bottom: 50px;
+    background-color: #D2D5DA;
 
 }
 
@@ -203,6 +204,9 @@ margin-left: 10%;
    width: 20rem;
    height: 25rem;
     /* border-radius: 20px; */
+}
+.about-pic img{
+    width: 100% ;
 }
 
 .about-sub1{
